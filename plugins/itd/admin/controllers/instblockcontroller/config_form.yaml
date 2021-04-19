@@ -1,0 +1,11 @@
+name: InstBlockController
+modelClass: Itd\Admin\Models\InstBlock
+form: $/itd/admin/models/instblock/fields.yaml
+defaultRedirect: itd/admin/instblockcontroller
+create:
+    redirect: 'itd/admin/instblockcontroller/update/:id'
+    redirectClose: itd/admin/instblockcontroller
+update:
+    redirect: itd/admin/instblockcontroller
+    redirectClose: itd/admin/instblockcontroller
+preview: {  }

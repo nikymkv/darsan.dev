@@ -1,0 +1,11 @@
+name: TypeServiceController
+modelClass: Itd\Admin\Models\TypeService
+form: $/itd/admin/models/typeservice/fields.yaml
+defaultRedirect: itd/admin/typeservicecontroller
+create:
+    redirect: 'itd/admin/typeservicecontroller/update/:id'
+    redirectClose: itd/admin/typeservicecontroller
+update:
+    redirect: itd/admin/typeservicecontroller
+    redirectClose: itd/admin/typeservicecontroller
+preview: {  }

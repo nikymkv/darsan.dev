@@ -1,0 +1,11 @@
+name: QuoteBlockController
+modelClass: Itd\Admin\Models\QuoteBlock
+form: $/itd/admin/models/quoteblock/fields.yaml
+defaultRedirect: itd/admin/quoteblockcontroller
+create:
+    redirect: 'itd/admin/quoteblockcontroller/update/:id'
+    redirectClose: itd/admin/quoteblockcontroller
+update:
+    redirect: itd/admin/quoteblockcontroller
+    redirectClose: itd/admin/quoteblockcontroller
+preview: {  }

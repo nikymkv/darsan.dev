@@ -1,0 +1,11 @@
+columns:
+    name:
+        label: 'itd.admin::lang.promo.name'
+        type: text
+        searchable: true
+        sortable: true
+    description:
+        label: 'itd.admin::lang.promo.desc'
+        type: text
+        searchable: false
+        sortable: false

@@ -1,0 +1,16 @@
+fields:
+    title:
+        label: 'itd.admin::lang.front.title'
+        size: large
+        span: left
+        type: richeditor
+    image:
+        label: 'itd.admin::lang.front.upload_image'
+        mode: image
+        fileTypes: 'png,jpg,jpeg,gif'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload

@@ -1,0 +1,5 @@
+fields:
+    name:
+        label: 'itd.admin::lang.type_service.name'
+        span: auto
+        type: text

@@ -1,0 +1,11 @@
+name: ReviewController
+modelClass: Itd\Admin\Models\Review
+form: $/itd/admin/models/review/fields.yaml
+defaultRedirect: itd/admin/reviewcontroller
+create:
+    redirect: 'itd/admin/reviewcontroller/update/:id'
+    redirectClose: itd/admin/reviewcontroller
+update:
+    redirect: itd/admin/reviewcontroller
+    redirectClose: itd/admin/reviewcontroller
+preview: {  }

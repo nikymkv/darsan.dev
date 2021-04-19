@@ -1,0 +1,18 @@
+fields:
+    type:
+        label: 'itd.admin::lang.review.type_name'
+        options:
+            1: Изображение
+            2: Видео
+        showSearch: true
+        span: auto
+        type: dropdown
+    media:
+        label: 'itd.admin::lang.review.upload_media'
+        mode: file
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: left
+        type: fileupload

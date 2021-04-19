@@ -1,0 +1,17 @@
+fields:
+    vk_link:
+        label: 'itd.admin::lang.social.vk_link'
+        span: auto
+        type: text
+    fb_link:
+        label: 'itd.admin::lang.social.fb_link'
+        span: right
+        type: text
+    inst_link:
+        label: 'itd.admin::lang.social.inst_link'
+        span: left
+        type: text
+    inst_acccount:
+        label: 'itd.admin::lang.social.inst_acccount'
+        span: right
+        type: text

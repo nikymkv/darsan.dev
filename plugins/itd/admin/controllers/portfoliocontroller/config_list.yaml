@@ -1,0 +1,12 @@
+title: PortfolioController
+modelClass: Itd\Admin\Models\Portfolio
+list: $/itd/admin/models/portfolio/columns.yaml
+recordUrl: 'itd/admin/portfoliocontroller/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+recordsPerPage: 20
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

@@ -1,0 +1,13 @@
+columns:
+    inst_acccount:
+        label: 'itd.admin::lang.social.inst_acccount'
+        type: text
+    inst_link:
+        label: 'itd.admin::lang.social.inst_link'
+        type: text
+    vk_link:
+        label: 'itd.admin::lang.social.vk_link'
+        type: text
+    fb_link:
+        label: 'itd.admin::lang.social.fb_link'
+        type: switch

@@ -1,0 +1,20 @@
+fields:
+    title:
+        label: 'itd.admin::lang.quote_block.title'
+        span: left
+        type: text
+    description:
+        label: 'itd.admin::lang.quote_block.desc'
+        size: large
+        span: left
+        type: richeditor
+    image:
+        label: 'itd.admin::lang.quote_block.upload_image'
+        mode: image
+        fileTypes: 'png,jpg,jpeg,gif'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: left
+        type: fileupload

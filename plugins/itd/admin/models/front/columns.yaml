@@ -1,0 +1,4 @@
+columns:
+    title:
+        label: 'itd.admin::lang.front.title'
+        type: text

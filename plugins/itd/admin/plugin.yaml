@@ -1,0 +1,48 @@
+plugin:
+    name: 'itd.admin::lang.plugin.name'
+    description: 'itd.admin::lang.plugin.description'
+    author: itd
+    icon: oc-icon-adjust
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: 'itd.admin::lang.admin.main_menu_item'
+        url: itd/admin/frontcontroller
+        icon: icon-user
+        sideMenu:
+            front-menu-item:
+                label: 'itd.admin::lang.admin.front'
+                url: itd/admin/frontcontroller
+                icon: icon-home
+            type-service-menu-item:
+                label: 'itd.admin::lang.admin.type_service'
+                url: itd/admin/typeservicecontroller
+                icon: icon-tags
+            promo-menu-item:
+                label: 'itd.admin::lang.admin.promo'
+                url: itd/admin/promocontroller
+                icon: icon-warning
+            portfolio-menu-item:
+                label: 'itd.admin::lang.admin.portfolio'
+                url: itd/admin/portfoliocontroller
+                icon: icon-image
+            quote-block-menu-item:
+                label: 'itd.admin::lang.admin.quote_block'
+                url: itd/admin/quoteblockcontroller
+                icon: icon-quote-right
+            review-menu-item:
+                label: 'itd.admin::lang.admin.review'
+                url: itd/admin/reviewcontroller
+                icon: icon-thumbs-o-up
+            inst-block-menu-item:
+                label: 'itd.admin::lang.admin.inst_block'
+                url: itd/admin/instblockcontroller
+                icon: icon-instagram
+            social-menu-item:
+                label: 'itd.admin::lang.admin.social'
+                url: itd/admin/socialcontroller
+                icon: icon-link
+            feedback-menu-item:
+                label: 'itd.admin::lang.admin.feedback'
+                url: itd/admin/feedbackcontroller
+                icon: icon-phone

@@ -1,0 +1,7 @@
+columns:
+    address:
+        label: 'itd.admin::lang.feedback.address'
+        type: text
+    phone:
+        label: 'itd.admin::lang.feedback.phone'
+        type: text

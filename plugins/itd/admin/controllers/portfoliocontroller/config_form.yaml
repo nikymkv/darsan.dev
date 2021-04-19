@@ -1,0 +1,11 @@
+name: PortfolioController
+modelClass: Itd\Admin\Models\Portfolio
+form: $/itd/admin/models/portfolio/fields.yaml
+defaultRedirect: itd/admin/portfoliocontroller
+create:
+    redirect: 'itd/admin/portfoliocontroller/update/:id'
+    redirectClose: itd/admin/portfoliocontroller
+update:
+    redirect: itd/admin/portfoliocontroller
+    redirectClose: itd/admin/portfoliocontroller
+preview: {  }

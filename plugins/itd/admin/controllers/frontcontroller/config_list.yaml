@@ -1,0 +1,12 @@
+list: $/itd/admin/models/front/columns.yaml
+modelClass: Itd\Admin\Models\Front
+title: FrontController
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'itd/admin/frontcontroller/update/:id'

@@ -1,0 +1,41 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table itd_admin_type_service'
+    - builder_table_create_itd_admin_type_service.php
+1.0.3:
+    - 'Created table itd_admin_services'
+    - builder_table_create_itd_admin_services.php
+1.0.4:
+    - 'Updated table itd_admin_services'
+    - builder_table_update_itd_admin_services.php
+1.0.5:
+    - 'Created table itd_admin_portfolio'
+    - builder_table_create_itd_admin_portfolio.php
+1.0.6:
+    - 'Created table itd_admin_reviews'
+    - builder_table_create_itd_admin_reviews.php
+1.0.7:
+    - 'Updated table itd_admin_reviews'
+    - builder_table_update_itd_admin_reviews.php
+1.0.8:
+    - 'Updated table itd_admin_reviews'
+    - builder_table_update_itd_admin_reviews_2.php
+1.0.9:
+    - 'Created table itd_admin_promotions'
+    - builder_table_create_itd_admin_promotions.php
+1.0.10:
+    - 'Created table itd_admin_social'
+    - builder_table_create_itd_admin_social.php
+1.0.11:
+    - 'Created table itd_admin_front'
+    - builder_table_create_itd_admin_front.php
+1.0.12:
+    - 'Created table itd_admin_quote_block'
+    - builder_table_create_itd_admin_quote_block.php
+1.0.13:
+    - 'Created table itd_admin_inst_block'
+    - builder_table_create_itd_admin_inst_block.php
+1.0.14:
+    - 'Created table itd_admin_feedback'
+    - builder_table_create_itd_admin_feedback.php

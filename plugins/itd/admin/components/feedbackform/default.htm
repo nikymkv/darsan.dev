@@ -1,0 +1,34 @@
+<form  data-request="onSend">
+    <div>
+        <label for="name">Full Name</label>
+        <input type="text" name="name" class="form-control">
+
+        <p data-validate-for="last_name" class="text-danger"></p> 
+    </div>
+
+    <div>
+        <label for="phone">Phone</label>
+        <input type="text" name="phone" class="form-control">
+        <p data-validate-for="phone" class="text-danger"></p> 
+    </div>
+
+    <div>
+        <label for="service">Service</label>
+        <select name="service">
+            {% for type in typeServices %}
+                <option value="">{{ type.name }}</option>
+            {% endfor %}
+        </select>
+        <p data-validate-for="service" class="text-danger"></p> 
+    </div>
+
+    <div>
+        <label for="date">Date</label>
+        <input type="text" name="date" class="form-control">
+        <p data-validate-for="date"  class="text-danger"></p> 
+    </div>
+
+    <div>
+        <button type="submit" class="btn btn-primary" data-attach-loading>Send</button>
+    </div>
+</form>

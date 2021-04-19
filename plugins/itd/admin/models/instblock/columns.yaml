@@ -1,0 +1,4 @@
+columns:
+    text:
+        label: 'itd.admin::lang.inst_block.text'
+        type: text

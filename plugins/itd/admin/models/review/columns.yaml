@@ -1,0 +1,4 @@
+columns:
+    type_name:
+        label: 'itd.admin::lang.review.type_name'
+        type: text

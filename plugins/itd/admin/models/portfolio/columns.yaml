@@ -1,0 +1,6 @@
+columns:
+    type_service_id:
+        label: 'itd.admin::lang.portfolio.type_service'
+        type: text
+        relation: typeService
+        select: name

@@ -1,0 +1,11 @@
+name: FrontController
+modelClass: Itd\Admin\Models\Front
+form: $/itd/admin/models/front/fields.yaml
+defaultRedirect: itd/admin/frontcontroller
+create:
+    redirect: 'itd/admin/frontcontroller/update/:id'
+    redirectClose: itd/admin/frontcontroller
+update:
+    redirect: itd/admin/frontcontroller
+    redirectClose: itd/admin/frontcontroller
+preview: {  }

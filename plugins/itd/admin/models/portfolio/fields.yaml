@@ -1,0 +1,17 @@
+fields:
+    typeService:
+        label: 'itd.admin::lang.portfolio.type_service'
+        nameFrom: name
+        descriptionFrom: description
+        span: left
+        type: relation
+    images:
+        label: 'itd.admin::lang.portfolio.upload_images'
+        mode: image
+        fileTypes: 'png,jpeg,jpg,gif'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: left
+        type: fileupload

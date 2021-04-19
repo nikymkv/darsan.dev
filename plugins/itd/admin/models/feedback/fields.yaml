@@ -1,0 +1,13 @@
+fields:
+    title:
+        label: 'itd.admin::lang.feedback.title'
+        span: auto
+        type: text
+    address:
+        label: 'itd.admin::lang.feedback.address'
+        span: left
+        type: text
+    phone:
+        label: 'itd.admin::lang.feedback.phone'
+        span: left
+        type: text

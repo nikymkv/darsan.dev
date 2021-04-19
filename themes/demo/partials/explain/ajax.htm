@@ -1,0 +1,44 @@
+[builderList typeServiceList]
+modelClass = "Itd\Admin\Models\TypeService"
+scope = "-"
+scopeValue = "{{ :scope }}"
+displayColumn = "name"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+==
+<?php
+use Itd\Admin\Models\Review;
+function onStart()
+{
+    $this['images'] = Review::where('type', 1)->get();
+    $this['movies'] = Review::where('type', 2)->get();
+}
+?>
+==
+{% set typeServices = typeServiceList.records %}
+
+
+<!-- Вывод изображений портфолио -->
+<p><h2>Портфолио</h2></p>
+{% for type in typeServices %}
+    {{ type.name }}<br>
+    {% for img in type.portfolio %}
+        {% for img in img.images %}
+            {{ img.path }} <br>
+        {% endfor %}
+    {% endfor %}
+{% endfor %}
+<br>
+<!-- Вывод медиафайлов отзывов -->
+
+<p><h2>Изображения</h2></p>
+{% for image in images %}
+    <img src="{{ image.media.path }}" alt="" srcset="">
+{% endfor %}
+
+<p><h2>Видео</h2></p>
+{% for movie in movies %}
+    <video src="{{ movie.media.path }}" controls preload="metadata"></video>
+{% endfor %}

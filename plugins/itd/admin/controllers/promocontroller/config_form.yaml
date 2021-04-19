@@ -1,0 +1,10 @@
+name: PromoController
+modelClass: Itd\Admin\Models\Promo
+form: $/itd/admin/models/promo/fields.yaml
+defaultRedirect: itd/admin/promocontroller
+create:
+    redirect: 'itd/admin/promocontroller/update/:id'
+    redirectClose: itd/admin/promocontroller
+update:
+    redirect: itd/admin/promocontroller
+    redirectClose: itd/admin/promocontroller

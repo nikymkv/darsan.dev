@@ -1,0 +1,11 @@
+name: FeedbackController
+modelClass: Itd\Admin\Models\Feedback
+form: $/itd/admin/models/feedback/fields.yaml
+defaultRedirect: itd/admin/feedbackcontroller
+create:
+    redirect: 'itd/admin/feedbackcontroller/update/:id'
+    redirectClose: itd/admin/feedbackcontroller
+update:
+    redirect: itd/admin/feedbackcontroller
+    redirectClose: itd/admin/feedbackcontroller
+preview: {  }

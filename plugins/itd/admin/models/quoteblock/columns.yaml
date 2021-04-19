@@ -1,0 +1,7 @@
+columns:
+    title:
+        label: 'itd.admin::lang.quote_block.title'
+        type: text
+    description:
+        label: 'itd.admin::lang.quote_block.desc'
+        type: text

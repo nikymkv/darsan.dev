@@ -1,0 +1,20 @@
+fields:
+    name:
+        label: 'itd.admin::lang.promo.name'
+        span: left
+        type: text
+    description:
+        label: 'itd.admin::lang.promo.desc'
+        size: ''
+        span: left
+        type: richeditor
+    image:
+        label: 'itd.admin::lang.promo.upload_image'
+        mode: image
+        fileTypes: 'png,jpg,jpeg,gif'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: left
+        type: fileupload

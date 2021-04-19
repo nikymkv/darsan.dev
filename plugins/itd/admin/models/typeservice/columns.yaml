@@ -1,0 +1,6 @@
+columns:
+    name:
+        label: 'itd.admin::lang.type_service.name'
+        type: text
+        searchable: true
+        sortable: true

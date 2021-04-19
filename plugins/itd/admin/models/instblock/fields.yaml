@@ -1,0 +1,15 @@
+fields:
+    text:
+        label: 'itd.admin::lang.inst_block.text'
+        span: left
+        type: text
+    images:
+        label: 'itd.admin::lang.inst_block.upload_images'
+        mode: image
+        fileTypes: 'png,jpg,jpeg,gif'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: left
+        type: fileupload
